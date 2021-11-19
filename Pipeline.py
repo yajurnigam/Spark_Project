@@ -9,6 +9,8 @@ class Pipeline:
         print("Running Pipeline")
         transform=Transform()
         transform.transform_data()
+        persist=Persist()
+        persist.persist_data()
 
 class Ingest:
 
